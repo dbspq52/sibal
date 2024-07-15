@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Not-</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="css/custom-styles.css" rel="stylesheet">
     <style>
       body{
         background-color: #d0a65ee2;
@@ -15,7 +14,14 @@
       .card-body {
           background-color: #eed0084d; /* 연한 파란색 배경 */
       }
-  </style>
+    </style>
+    <style>
+      .card-img-top {
+        height: 200px;  /* 모든 이미지의 높이를 200px로 고정 */
+        object-fit: cover;  /* 이미지가 컨테이너를 꽉 채우면서 비율을 유지 */
+        width: 100%;  /* 이미지의 너비를 부모 컨테이너의 너비와 동일하게 조정 */
+      }
+    </style>
   </head>
   
   <body>
